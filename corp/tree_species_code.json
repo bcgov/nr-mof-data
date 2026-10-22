@@ -1,0 +1,736 @@
+{
+  "metadata": {
+    "table": "TREE_SPECIES_CODE",
+    "columns": [
+      {
+        "name": "TREE_SPECIES_CODE",
+        "oracle_type": "VARCHAR2"
+      },
+      {
+        "name": "DESCRIPTION",
+        "oracle_type": "VARCHAR2"
+      },
+      {
+        "name": "EFFECTIVE_DATE",
+        "oracle_type": "VARCHAR2"
+      },
+      {
+        "name": "EXPIRY_DATE",
+        "oracle_type": "VARCHAR2"
+      },
+      {
+        "name": "UPDATE_TIMESTAMP",
+        "oracle_type": "VARCHAR2"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "tree_species_code": "A",
+      "description": "Aspen, Cottonwood or Poplar",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "AC",
+      "description": "poplar",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "ACB",
+      "description": "balsam poplar",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "ACT",
+      "description": "black cottonwood",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "AT",
+      "description": "trembling aspen",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "AX",
+      "description": "hybrid poplars",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "B",
+      "description": "Fir (Balsam)",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "BA",
+      "description": "amabilis fir",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "BB",
+      "description": "balsam fir",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "BG",
+      "description": "grand fir",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "BL",
+      "description": "subalpine fir",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "BN",
+      "description": "Noble fir  (code replaced by Bp)",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "BP",
+      "description": "noble fir",
+      "effective_date": "2006-07-25T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "C",
+      "description": "Cedar",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "CW",
+      "description": "western redcedar",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "D",
+      "description": "Alder",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "DG",
+      "description": "green/Sitka alder",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "DM",
+      "description": "mountain alder",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "DR",
+      "description": "red alder",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "E",
+      "description": "Birch",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "EA",
+      "description": "Alaska paper birch",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "EB",
+      "description": "scrub birch",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "EP",
+      "description": "paper birch",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "ES",
+      "description": "silver birch",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "EW",
+      "description": "water birch",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "EX",
+      "description": "birch hybrid",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "EXP",
+      "description": "Alaska x paper birch hybrid",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "EXW",
+      "description": "Water x paper birch",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "F",
+      "description": "Douglas-fir",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "FD",
+      "description": "Douglas-fir",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "FDC",
+      "description": "coastal Douglas-fir",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "FDI",
+      "description": "interior Douglas-fir",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "G",
+      "description": "Dogwood",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "GP",
+      "description": "Pacific dogwood",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "GR",
+      "description": "red-osier dogwood",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "H",
+      "description": "Hemlock",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "HM",
+      "description": "mountain hemlock",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "HW",
+      "description": "western hemlock",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "HX",
+      "description": "hemlock hybrid",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "HXM",
+      "description": "mountain x western hemlock hybrid",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "J",
+      "description": "Juniper",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "JD",
+      "description": "common juniper",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "JH",
+      "description": "creeping juniper",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "JR",
+      "description": "Rocky Mtn. juniper",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "K",
+      "description": "Cascara",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "KC",
+      "description": "cascara",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "L",
+      "description": "Larch",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "LA",
+      "description": "alpine larch",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "LD",
+      "description": "Dahurian larch",
+      "effective_date": "2002-02-13T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "LS",
+      "description": "Siberian larch",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "LT",
+      "description": "tamarack",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "LW",
+      "description": "western larch",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "M",
+      "description": "Maple",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "MB",
+      "description": "bigleaf maple",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "MR",
+      "description": "Douglas maple",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "MV",
+      "description": "vine maple",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "OC",
+      "description": "coast redwood",
+      "effective_date": "2006-07-25T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "P",
+      "description": "Pine",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "PA",
+      "description": "whitebark pine",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "PF",
+      "description": "limber pine",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "PJ",
+      "description": "jack pine",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "PL",
+      "description": "lodgepole pine",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "PLC",
+      "description": "shore pine",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "PLI",
+      "description": "lodgepole pine",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "PR",
+      "description": "red pine",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "PW",
+      "description": "western white pine",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "PX",
+      "description": "pine hybrid",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "PXJ",
+      "description": "lodgepole x jack pine hybrid",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "PY",
+      "description": "ponderosa pine",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "Q",
+      "description": "Oak",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "QG",
+      "description": "Garry oak",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "RA",
+      "description": "Arbutus",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "S",
+      "description": "Spruce",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SA",
+      "description": "Norway spruce (code replaced by Sn)",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SB",
+      "description": "black spruce",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SE",
+      "description": "Engelmann spruce",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SN",
+      "description": "Norway spruce",
+      "effective_date": "2006-07-25T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SS",
+      "description": "Sitka spruce",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SW",
+      "description": "white spruce",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SX",
+      "description": "spruce hybrid",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SXB",
+      "description": "white x black spruce",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SXE",
+      "description": "engelmann x sitka spruce",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SXL",
+      "description": "Sitka x white",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SXS",
+      "description": "Sitka x unknown hybrid",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SXW",
+      "description": "Engelmann x white",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "SXX",
+      "description": "white x engelmann x sitka spruce",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "T",
+      "description": "Yew",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "TW",
+      "description": "western yew",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "UP",
+      "description": "Pacific crab apple",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "V",
+      "description": "Cherry",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "VB",
+      "description": "bitter cherry",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "VP",
+      "description": "pin cherry",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "VW",
+      "description": "choke cherry (code replaced by Vv)",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2006-07-25T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "W",
+      "description": "Willow",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "WA",
+      "description": "peachleaf willow",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "WB",
+      "description": "Bebb's willow",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "WD",
+      "description": "pussy willow",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "WS",
+      "description": "Scouler's willow",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "WT",
+      "description": "Sitka willow",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "Y",
+      "description": "Cypress",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "2010-06-13T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    },
+    {
+      "tree_species_code": "YC",
+      "description": "yellow-cedar",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2010-06-14T11:46:32"
+    }
+  ]
+}

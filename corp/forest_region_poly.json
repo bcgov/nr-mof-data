@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "source": "BC Data Catalogue / BC Geographic Warehouse (openmaps.gov.bc.ca)",
+    "dataset": "WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG",
+    "retrieved_at": "2026-10-22T14:26:57-07:00",
+    "row_count": 8,
+    "geometry_source": {
+      "kind": "OGC WFS",
+      "service_url": "https://openmaps.gov.bc.ca/geo/ows",
+      "layer": "WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG",
+      "version": "2.0.0",
+      "output_format": "json",
+      "crs": "EPSG:3005",
+      "crs_note": "Coordinates are EPSG:3005 (NAD83 / BC Albers) as served, not the WGS84 lon/lat required by RFC 7946. Reproject before use with strict GeoJSON consumers.",
+      "generalized": true,
+      "collection_url": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG&outputFormat=json",
+      "join": {
+        "local_column": "org_unit",
+        "remote_property": "ORG_UNIT"
+      }
+    },
+    "columns": [
+      {
+        "name": "region_name",
+        "source_property": "REGION_NAME"
+      },
+      {
+        "name": "org_unit",
+        "source_property": "ORG_UNIT"
+      },
+      {
+        "name": "org_unit_name",
+        "source_property": "ORG_UNIT_NAME"
+      },
+      {
+        "name": "feature_code",
+        "source_property": "FEATURE_CODE"
+      },
+      {
+        "name": "feature_name",
+        "source_property": "FEATURE_NAME"
+      },
+      {
+        "name": "objectid",
+        "source_property": "OBJECTID"
+      },
+      {
+        "name": "se_anno_cad_data",
+        "source_property": "SE_ANNO_CAD_DATA"
+      },
+      {
+        "name": "feature_area_sqm",
+        "source_property": "FEATURE_AREA_SQM"
+      },
+      {
+        "name": "feature_length_m",
+        "source_property": "FEATURE_LENGTH_M"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG.Cariboo Natural Resource Region",
+      "region_name": "Cariboo Natural Resource Region",
+      "org_unit": "RCB",
+      "org_unit_name": "Cariboo Natural Resource Region",
+      "feature_code": "FM90000010",
+      "feature_name": "Natural Resource Region",
+      "objectid": 3640,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 82529153547.6713,
+      "feature_length_m": 2056653.2068,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27RCB%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG.Kootenay-Boundary Natural Resource Region",
+      "region_name": "Kootenay-Boundary Natural Resource Region",
+      "org_unit": "RKB",
+      "org_unit_name": "Kootenay-Boundary Natural Resource Region",
+      "feature_code": "FM90000010",
+      "feature_name": "Natural Resource Region",
+      "objectid": 3644,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 82339721316.0668,
+      "feature_length_m": 1918540.2282,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27RKB%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG.Northeast Natural Resource Region",
+      "region_name": "Northeast Natural Resource Region",
+      "org_unit": "RNO",
+      "org_unit_name": "Northeast Natural Resource Region",
+      "feature_code": "FM90000010",
+      "feature_name": "Natural Resource Region",
+      "objectid": 3638,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 175396414758.75,
+      "feature_length_m": 2976434.2906,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27RNO%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG.Omineca Natural Resource Region",
+      "region_name": "Omineca Natural Resource Region",
+      "org_unit": "ROM",
+      "org_unit_name": "Omineca Natural Resource Region",
+      "feature_code": "FM90000010",
+      "feature_name": "Natural Resource Region",
+      "objectid": 3643,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 158220114550.082,
+      "feature_length_m": 4525049.5768,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27ROM%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG.South Coast Natural Resource Region",
+      "region_name": "South Coast Natural Resource Region",
+      "org_unit": "RSC",
+      "org_unit_name": "South Coast Natural Resource Region",
+      "feature_code": "FM90000010",
+      "feature_name": "Natural Resource Region",
+      "objectid": 3642,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 46154308109.9467,
+      "feature_length_m": 1423031.9709,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27RSC%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG.Skeena Natural Resource Region",
+      "region_name": "Skeena Natural Resource Region",
+      "org_unit": "RSK",
+      "org_unit_name": "Skeena Natural Resource Region",
+      "feature_code": "FM90000010",
+      "feature_name": "Natural Resource Region",
+      "objectid": 3637,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 263214618474.011,
+      "feature_length_m": 5041658.5878,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27RSK%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG.Thompson-Okanagan Natural Resource Region",
+      "region_name": "Thompson-Okanagan Natural Resource Region",
+      "org_unit": "RTO",
+      "org_unit_name": "Thompson-Okanagan Natural Resource Region",
+      "feature_code": "FM90000010",
+      "feature_name": "Natural Resource Region",
+      "objectid": 3639,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 75126475892.3583,
+      "feature_length_m": 2465336.905,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27RTO%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG.West Coast Natural Resource Region",
+      "region_name": "West Coast Natural Resource Region",
+      "org_unit": "RWC",
+      "org_unit_name": "West Coast Natural Resource Region",
+      "feature_code": "FM90000010",
+      "feature_name": "Natural Resource Region",
+      "objectid": 3641,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 156764910116.167,
+      "feature_length_m": 3106800.7368,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_REGIONS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27RWC%27"
+      }
+    }
+  ]
+}

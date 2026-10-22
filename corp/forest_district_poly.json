@@ -1,0 +1,508 @@
+{
+  "metadata": {
+    "source": "BC Data Catalogue / BC Geographic Warehouse (openmaps.gov.bc.ca)",
+    "dataset": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG",
+    "retrieved_at": "2026-10-22T14:26:57-07:00",
+    "row_count": 23,
+    "geometry_source": {
+      "kind": "OGC WFS",
+      "service_url": "https://openmaps.gov.bc.ca/geo/ows",
+      "layer": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG",
+      "version": "2.0.0",
+      "output_format": "json",
+      "crs": "EPSG:3005",
+      "crs_note": "Coordinates are EPSG:3005 (NAD83 / BC Albers) as served, not the WGS84 lon/lat required by RFC 7946. Reproject before use with strict GeoJSON consumers.",
+      "generalized": true,
+      "collection_url": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json",
+      "join": {
+        "local_column": "org_unit",
+        "remote_property": "ORG_UNIT"
+      }
+    },
+    "columns": [
+      {
+        "name": "district_name",
+        "source_property": "DISTRICT_NAME"
+      },
+      {
+        "name": "org_unit",
+        "source_property": "ORG_UNIT"
+      },
+      {
+        "name": "org_unit_name",
+        "source_property": "ORG_UNIT_NAME"
+      },
+      {
+        "name": "region_org_unit",
+        "source_property": "REGION_ORG_UNIT"
+      },
+      {
+        "name": "region_org_unit_name",
+        "source_property": "REGION_ORG_UNIT_NAME"
+      },
+      {
+        "name": "feature_code",
+        "source_property": "FEATURE_CODE"
+      },
+      {
+        "name": "feature_name",
+        "source_property": "FEATURE_NAME"
+      },
+      {
+        "name": "objectid",
+        "source_property": "OBJECTID"
+      },
+      {
+        "name": "se_anno_cad_data",
+        "source_property": "SE_ANNO_CAD_DATA"
+      },
+      {
+        "name": "feature_area_sqm",
+        "source_property": "FEATURE_AREA_SQM"
+      },
+      {
+        "name": "feature_length_m",
+        "source_property": "FEATURE_LENGTH_M"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Cariboo-Chilcotin Natural Resource District",
+      "district_name": "Cariboo-Chilcotin Natural Resource District",
+      "org_unit": "DCC",
+      "org_unit_name": "Cariboo-Chilcotin Natural Resource District",
+      "region_org_unit": "RCB",
+      "region_org_unit_name": "Cariboo Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6240,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 49338105038.9321,
+      "feature_length_m": 1715480.2813,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DCC%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Chilliwack Natural Resource District",
+      "district_name": "Chilliwack Natural Resource District",
+      "org_unit": "DCK",
+      "org_unit_name": "Chilliwack Natural Resource District",
+      "region_org_unit": "RSC",
+      "region_org_unit_name": "South Coast Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6869,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 16119397085.2618,
+      "feature_length_m": 976312.6872,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DCK%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Campbell River Natural Resource District",
+      "district_name": "Campbell River Natural Resource District",
+      "org_unit": "DCR",
+      "org_unit_name": "Campbell River Natural Resource District",
+      "region_org_unit": "RWC",
+      "region_org_unit_name": "West Coast Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6882,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 17504874333.3565,
+      "feature_length_m": 1155303.5584,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DCR%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Cascades Natural Resource District",
+      "district_name": "Cascades Natural Resource District",
+      "org_unit": "DCS",
+      "org_unit_name": "Cascades Natural Resource District",
+      "region_org_unit": "RTO",
+      "region_org_unit_name": "Thompson-Okanagan Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6239,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 22931920858.4529,
+      "feature_length_m": 1657940.566,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DCS%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Fort Nelson Natural Resource District",
+      "district_name": "Fort Nelson Natural Resource District",
+      "org_unit": "DFN",
+      "org_unit_name": "Fort Nelson Natural Resource District",
+      "region_org_unit": "RNO",
+      "region_org_unit_name": "Northeast Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6870,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 98715058775.7258,
+      "feature_length_m": 2205076.0836,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DFN%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Thompson Rivers Natural Resource District",
+      "district_name": "Thompson Rivers Natural Resource District",
+      "org_unit": "DKA",
+      "org_unit_name": "Thompson Rivers Natural Resource District",
+      "region_org_unit": "RTO",
+      "region_org_unit_name": "Thompson-Okanagan Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6872,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 27703597628.3198,
+      "feature_length_m": 1438969.6926,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DKA%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Coast Mountains Natural Resource District",
+      "district_name": "Coast Mountains Natural Resource District",
+      "org_unit": "DKM",
+      "org_unit_name": "Coast Mountains Natural Resource District",
+      "region_org_unit": "RSK",
+      "region_org_unit_name": "Skeena Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6879,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 80447580947.9656,
+      "feature_length_m": 2309711.9835,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DKM%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.100 Mile House Natural Resource District",
+      "district_name": "100 Mile House Natural Resource District",
+      "org_unit": "DMH",
+      "org_unit_name": "100 Mile House Natural Resource District",
+      "region_org_unit": "RCB",
+      "region_org_unit_name": "Cariboo Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6883,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 12357889110.221,
+      "feature_length_m": 736689.2679,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DMH%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Mackenzie Natural Resource District",
+      "district_name": "Mackenzie Natural Resource District",
+      "org_unit": "DMK",
+      "org_unit_name": "Mackenzie Natural Resource District",
+      "region_org_unit": "ROM",
+      "region_org_unit_name": "Omineca Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6875,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 64050216982.7638,
+      "feature_length_m": 2234067.4052,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DMK%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Nadina Natural Resource District",
+      "district_name": "Nadina Natural Resource District",
+      "org_unit": "DND",
+      "org_unit_name": "Nadina Natural Resource District",
+      "region_org_unit": "RSK",
+      "region_org_unit_name": "Skeena Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6874,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 30794028010.11,
+      "feature_length_m": 1443650.6011,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DND%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.North Island - Central Coast Natural Resource District",
+      "district_name": "North Island - Central Coast Natural Resource District",
+      "org_unit": "DNI",
+      "org_unit_name": "North Island - Central Coast Natural Resource District",
+      "region_org_unit": "RWC",
+      "region_org_unit_name": "West Coast Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6876,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 74999697237.0269,
+      "feature_length_m": 1933322.1274,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DNI%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Okanagan Shuswap Natural Resource District",
+      "district_name": "Okanagan Shuswap Natural Resource District",
+      "org_unit": "DOS",
+      "org_unit_name": "Okanagan Shuswap Natural Resource District",
+      "region_org_unit": "RTO",
+      "region_org_unit_name": "Thompson-Okanagan Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6242,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 24490985769.3886,
+      "feature_length_m": 1323926.3762,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DOS%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Peace Natural Resource District",
+      "district_name": "Peace Natural Resource District",
+      "org_unit": "DPC",
+      "org_unit_name": "Peace Natural Resource District",
+      "region_org_unit": "RNO",
+      "region_org_unit_name": "Northeast Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6238,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 76682153204.0923,
+      "feature_length_m": 1861849.0917,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DPC%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Prince George Natural Resource District",
+      "district_name": "Prince George Natural Resource District",
+      "org_unit": "DPG",
+      "org_unit_name": "Prince George Natural Resource District",
+      "region_org_unit": "ROM",
+      "region_org_unit_name": "Omineca Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6871,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 48480240380.2341,
+      "feature_length_m": 2289176.3844,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DPG%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Haida Gwaii Natural Resource District",
+      "district_name": "Haida Gwaii Natural Resource District",
+      "org_unit": "DQC",
+      "org_unit_name": "Haida Gwaii Natural Resource District",
+      "region_org_unit": "RWC",
+      "region_org_unit_name": "West Coast Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6880,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 41808689737.5364,
+      "feature_length_m": 996927.3984,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DQC%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Quesnel Natural Resource District",
+      "district_name": "Quesnel Natural Resource District",
+      "org_unit": "DQU",
+      "org_unit_name": "Quesnel Natural Resource District",
+      "region_org_unit": "RCB",
+      "region_org_unit_name": "Cariboo Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6868,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 20833152392.2854,
+      "feature_length_m": 1319684.2769,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DQU%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Rocky Mountain Natural Resource District",
+      "district_name": "Rocky Mountain Natural Resource District",
+      "org_unit": "DRM",
+      "org_unit_name": "Rocky Mountain Natural Resource District",
+      "region_org_unit": "RKB",
+      "region_org_unit_name": "Kootenay-Boundary Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6884,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 28006340043.9133,
+      "feature_length_m": 1234904.0459,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DRM%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Sunshine Coast Natural Resource District",
+      "district_name": "Sunshine Coast Natural Resource District",
+      "org_unit": "DSC",
+      "org_unit_name": "Sunshine Coast Natural Resource District",
+      "region_org_unit": "RSC",
+      "region_org_unit_name": "South Coast Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6241,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 19047691631.2859,
+      "feature_length_m": 946315.9618,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DSC%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Selkirk Natural Resource District",
+      "district_name": "Selkirk Natural Resource District",
+      "org_unit": "DSE",
+      "org_unit_name": "Selkirk Natural Resource District",
+      "region_org_unit": "RKB",
+      "region_org_unit_name": "Kootenay-Boundary Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6873,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 54333620584.3248,
+      "feature_length_m": 2062554.8968,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DSE%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.South Island Natural Resource District",
+      "district_name": "South Island Natural Resource District",
+      "org_unit": "DSI",
+      "org_unit_name": "South Island Natural Resource District",
+      "region_org_unit": "RWC",
+      "region_org_unit_name": "West Coast Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6877,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 22451210036.8714,
+      "feature_length_m": 819314.0942,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DSI%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Sea to Sky Natural Resource District",
+      "district_name": "Sea to Sky Natural Resource District",
+      "org_unit": "DSQ",
+      "org_unit_name": "Sea to Sky Natural Resource District",
+      "region_org_unit": "RSC",
+      "region_org_unit_name": "South Coast Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6881,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 10987217004.8783,
+      "feature_length_m": 991001.5338,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DSQ%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Skeena Stikine Natural Resource District",
+      "district_name": "Skeena Stikine Natural Resource District",
+      "org_unit": "DSS",
+      "org_unit_name": "Skeena Stikine Natural Resource District",
+      "region_org_unit": "RSK",
+      "region_org_unit_name": "Skeena Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6878,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 151973043417.569,
+      "feature_length_m": 3974460.5299,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DSS%27"
+      }
+    },
+    {
+      "feature_id": "WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG.Stuart Nechako Natural Resource District",
+      "district_name": "Stuart Nechako Natural Resource District",
+      "org_unit": "DVA",
+      "org_unit_name": "Stuart Nechako Natural Resource District",
+      "region_org_unit": "ROM",
+      "region_org_unit_name": "Omineca Natural Resource Region",
+      "feature_code": "FM90000020",
+      "feature_name": "Natural Resource District",
+      "objectid": 6243,
+      "se_anno_cad_data": null,
+      "feature_area_sqm": 45689639153.7312,
+      "feature_length_m": 2742931.8432,
+      "geometry_ref": {
+        "rel": "geometry",
+        "type": "application/geo+json",
+        "href": "https://openmaps.gov.bc.ca/geo/ows?service=WFS&version=2.0.0&request=GetFeature&typeName=WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG&outputFormat=json&CQL_FILTER=ORG_UNIT%3D%27DVA%27"
+      }
+    }
+  ]
+}

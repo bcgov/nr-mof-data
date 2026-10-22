@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "table": "UNIT_OF_MEASURE_CODE",
+    "columns": [
+      {
+        "name": "UNIT_OF_MEASURE_CODE",
+        "oracle_type": "VARCHAR2"
+      },
+      {
+        "name": "DESCRIPTION",
+        "oracle_type": "VARCHAR2"
+      },
+      {
+        "name": "EFFECTIVE_DATE",
+        "oracle_type": "VARCHAR2"
+      },
+      {
+        "name": "EXPIRY_DATE",
+        "oracle_type": "VARCHAR2"
+      },
+      {
+        "name": "UPDATE_TIMESTAMP",
+        "oracle_type": "VARCHAR2"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "unit_of_measure_code": "%",
+      "description": "Percent",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "AUM",
+      "description": "Animal Unit Months",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "CHN",
+      "description": "Chains",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "CM",
+      "description": "Centimeters",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "DOL",
+      "description": "Dollars",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "DY",
+      "description": "Days",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "FT",
+      "description": "Feet (or Foot)",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "G",
+      "description": "Grams",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "GB",
+      "description": "Gigabytes",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "HA",
+      "description": "Hectares",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "HL",
+      "description": "Hectolitres",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "HR",
+      "description": "Hours",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "IN",
+      "description": "Inches",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "KG",
+      "description": "Kilograms",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "KM",
+      "description": "Kilometers",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "L",
+      "description": "Litres",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "M",
+      "description": "Meters",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "M3",
+      "description": "Cubic Meters",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "MB",
+      "description": "Megabytes",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "MI",
+      "description": "Miles",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "MIN",
+      "description": "Minutes",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "MM",
+      "description": "Millimeters",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "MO",
+      "description": "Months",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "MT",
+      "description": "Metric Tonnes",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "NO",
+      "description": "Number",
+      "effective_date": "2003-04-07T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "PT",
+      "description": "Plots",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "RAD",
+      "description": "Radians",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "SEC",
+      "description": "Seconds",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "ST",
+      "description": "Stems",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "TC",
+      "description": "Total Cost per Unit Area",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "TRE",
+      "description": "Trees",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "WK",
+      "description": "Weeks",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "YD",
+      "description": "Yards",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    },
+    {
+      "unit_of_measure_code": "YR",
+      "description": "Years",
+      "effective_date": "1905-01-01T00:00:00",
+      "expiry_date": "9999-12-31T00:00:00",
+      "update_timestamp": "2004-02-03T11:54:31"
+    }
+  ]
+}

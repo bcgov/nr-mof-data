@@ -29,6 +29,8 @@ Datasets live in the [`corp/`](./corp/) folder. Each file includes schema metada
 
 ## Consuming in an Application
 
+> **Looking for the complete step-by-step setup guide?** See [How Application Teams Consume Corporate Reference Data](./docs/CONSUMING.md) for full instructions, copy-pasteable GitHub Actions workflows, and runtime walkthroughs.
+
 Applications subscribe to the tables they care about by adding a configuration file and a GitHub Action workflow.
 
 ### 1. Add Configuration: `.github/code-sync.yml`

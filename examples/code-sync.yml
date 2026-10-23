@@ -1,0 +1,30 @@
+# .github/code-sync.yml
+# Example mapping configuration for an application consuming corporate reference data
+
+version: 1
+
+source:
+  repo: "bcgov/nr-mof-data"
+  branch: "main"
+  path: "corp"
+
+mappings:
+  - file: "org_unit.json"
+    table: "org_unit"
+    primary_key: ["org_unit_no"]
+    dialect: "postgres"
+
+  - file: "tree_species_code.json"
+    table: "tree_species_code"
+    primary_key: ["tree_species_code"]
+    dialect: "postgres"
+
+  - file: "unit_of_measure_code.json"
+    table: "unit_of_measure_code"
+    primary_key: ["unit_of_measure_code"]
+    dialect: "postgres"
+
+  - file: "forest_district_poly.json"
+    table: "forest_district_poly"
+    primary_key: ["feature_id"]
+    dialect: "postgres"

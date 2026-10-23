@@ -1,0 +1,50 @@
+name: 'Corporate Reference Data Sync'
+description: 'Synchronizes corporate reference data from bcgov/nr-mof-data into Flyway/Alembic migrations'
+author: 'Ministry of Forests, British Columbia'
+
+inputs:
+  config_path:
+    description: 'Path to code-sync.yml mapping configuration'
+    required: false
+    default: '.github/code-sync.yml'
+  output_dir:
+    description: 'Directory where database migration scripts will be written'
+    required: false
+    default: 'db/migrations'
+  watermark_file:
+    description: 'Path to the JSON watermark state file'
+    required: false
+    default: '.corp-sync.json'
+  dry_run:
+    description: 'Run without modifying migration files or watermark'
+    required: false
+    default: 'false'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '24'
+
+    - name: Run Code Sync Engine
+      shell: bash
+      env:
+        CONFIG_PATH: ${{ inputs.config_path }}
+        OUTPUT_DIR: ${{ inputs.output_dir }}
+        WATERMARK_FILE: ${{ inputs.watermark_file }}
+        DRY_RUN: ${{ inputs.dry_run }}
+        ACTION_PATH: ${{ github.action_path }}
+      run: |
+        DRY_RUN_FLAG=""
+        if [ "$DRY_RUN" = "true" ]; then
+          DRY_RUN_FLAG="--dry-run"
+        fi
+
+        node "$ACTION_PATH/src/cli.js" \
+          --config "$CONFIG_PATH" \
+          --source-dir "$ACTION_PATH/corp" \
+          --output-dir "$OUTPUT_DIR" \
+          --watermark "$WATERMARK_FILE" \
+          $DRY_RUN_FLAG

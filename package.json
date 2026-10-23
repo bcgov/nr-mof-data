@@ -1,0 +1,26 @@
+{
+  "name": "nr-mof-data",
+  "version": "1.0.0",
+  "description": "Corporate reference data publication and synchronization engine",
+  "type": "module",
+  "main": "src/engine.js",
+  "bin": {
+    "corp-sync": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "sync": "node src/cli.js"
+  },
+  "keywords": [
+    "bcgov",
+    "reference-data",
+    "postgresql",
+    "flyway",
+    "alembic"
+  ],
+  "author": "Derek Roberts <derek.roberts@gmail.com>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
